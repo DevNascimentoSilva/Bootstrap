@@ -1,0 +1,92 @@
+body {
+    font-family: "Roboto Serif", serif;
+    background-color: black;
+}
+.navbar {
+    background-color: black;
+}
+h5 {
+    color: #e1e3ac;
+}
+.nav .nav-link.active {
+    background-color: #e1e3ac;
+    color: #213435;
+}
+.nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover {
+    color: #e1e3ac;
+}
+.navbar-brand {
+    font-family: "Basic", sans-serif;
+}
+#redesocial {
+    margin-right: 50px;
+}
+.navbar-toggler {
+    background-color: #e1e3ac;
+}
+#sobre {
+    margin-left: 32px;
+}
+#sobre img {
+    width: 260px;
+    margin-left: 30px;
+}
+#sobre h2, 
+p, #redesocial {
+    margin-left: 0px;
+    color: #e1e3ac;
+}
+
+.col-md-8{
+    color: #ccc;
+    margin-top: 50px;
+}
+#promocoes{
+    margin-top: 50px;
+}
+#promocoes h2 {
+    color: #e1e3ac;
+    padding: 32px;
+}
+.card {
+    background-color: transparent;
+    color: #ccc;
+    border: none;
+}
+.card-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+.card-img-top {
+    width: 100%;
+    object-fit: cover;
+  }
+  .precos {
+    display: flex;
+    justify-content: space-between;
+  }
+  .preco-atual {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .preco-anterior {
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #777;
+  }
+#promocoes {
+    background-color: black;
+}
+#produtos img {
+    width: 100%;
+}
+#produtos h2 {
+    color: #e1e3ac;
+}
+.tab-pane button {
+    color: white;
+    background-color: #0d6efd;
+    margin-bottom: 10px;
+}
