@@ -90,3 +90,42 @@ p, #redesocial {
     background-color: #0d6efd;
     margin-bottom: 10px;
 }
+
+@media (main-width: 768px) and (max-width: 1023px) {
+    #produtos img {
+        width: 50%;
+    }
+  
+}
+    @media (max-width: 767px) {
+        #produtos img {
+            width: 20%;
+            
+        }
+        #sobre img {
+            width: 80%;
+            align-items: center;
+            margin-top: 0px;
+        }
+        #promocoes{
+            margin-top: 10px;
+            width: 90%;
+            margin-left: 15px;
+            margin-bottom: 30px;
+        }
+        #sobre h2, 
+        p, #redesocial {
+        text-align: left;
+        }
+        #produtos {
+            width: 90%;
+            margin-left: 15px;
+            margin-bottom: 30px;
+            margin-top: 15px;
+        }
+        .tab-pane button {
+            color: white;
+            background-color: #0d6efd;
+            margin-bottom: 40px;
+        }
+    }
